@@ -29,7 +29,13 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.contact-link1 {
+.contact-link01 {
+  font-size: 18px;
+  font-family: "Verdana";
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.contact-link02 {
   font-size: 18px;
   font-family: "Verdana";
   margin-right: var(--dl-space-space-tripleunit);
@@ -80,13 +86,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-link2 {
+.contact-link03 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.contact-link3 {
+.contact-link04 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.contact-link4 {
+.contact-link05 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .contact-hero {
@@ -130,10 +136,10 @@
   font-family: "Verdana";
   margin-bottom: var(--dl-space-space-fiveunits);
 }
-.contact-link6 {
+.contact-link07 {
   text-decoration: underline;
 }
-.contact-link7 {
+.contact-link08 {
   text-decoration: underline;
 }
 .contact-text10 {

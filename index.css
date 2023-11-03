@@ -46,6 +46,12 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
+.home-link2 {
+  font-size: 18px;
+  font-family: "Verdana";
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
 .home-burger-menu {
   display: none;
   align-items: flex-start;
@@ -91,13 +97,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-link2 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .home-link3 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-link4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-link5 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-section-separator {
