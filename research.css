@@ -283,7 +283,7 @@
   font-family: "Verdana";
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.research-text15 {
+.research-text13 {
   color: var(--dl-color-gray-black);
   font-size: 20px;
   font-family: "Oxygen";
@@ -291,11 +291,11 @@
 }
 .research-link07 {
   color: var(--dl-color-gray-white);
-  width: 314px;
+  width: 182px;
   height: 91px;
   font-size: 30px;
   align-self: flex-end;
-  box-shadow: 5px 5px 10px 0px #737373;
+  box-shadow: rgb(115, 115, 115) 5px 5px 10px 0px;
   text-align: center;
   font-family: "Verdana";
   border-color: rgba(100, 3, 3, 0.89);
@@ -372,7 +372,7 @@
   .research-heading5 {
     text-align: center;
   }
-  .research-text15 {
+  .research-text13 {
     text-align: center;
   }
 }

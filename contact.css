@@ -29,13 +29,13 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.contact-link01 {
+.contact-link1 {
   font-size: 18px;
   font-family: "Verdana";
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.contact-link02 {
+.contact-link2 {
   font-size: 18px;
   font-family: "Verdana";
   margin-right: var(--dl-space-space-tripleunit);
@@ -86,13 +86,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-link03 {
+.contact-link3 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.contact-link04 {
+.contact-link4 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.contact-link05 {
+.contact-link5 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .contact-hero {
@@ -136,13 +136,10 @@
   font-family: "Verdana";
   margin-bottom: var(--dl-space-space-fiveunits);
 }
-.contact-link07 {
+.contact-link7 {
   text-decoration: underline;
 }
-.contact-link08 {
-  text-decoration: underline;
-}
-.contact-text10 {
+.contact-text08 {
   color: var(--dl-color-gray-black);
   font-size: 18px;
   font-family: "Verdana";
@@ -223,7 +220,7 @@
   .contact-text05 {
     text-align: center;
   }
-  .contact-text10 {
+  .contact-text08 {
     text-align: center;
   }
   .contact-image {
