@@ -312,6 +312,64 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.research-hero1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  box-shadow: 20px 20px 30px 10px #d4d4d4;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+.research-hero-text-container1 {
+  width: 1094px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.research-heading6 {
+  color: rgb(4, 4, 4);
+  width: 1073px;
+  font-size: 35px;
+  font-family: "Verdana";
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.research-text17 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+  font-family: "Oxygen";
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.research-link08 {
+  color: var(--dl-color-gray-white);
+  width: 182px;
+  height: 91px;
+  font-size: 30px;
+  align-self: flex-end;
+  box-shadow: rgb(115, 115, 115) 5px 5px 10px 0px;
+  text-align: center;
+  font-family: "Verdana";
+  border-color: rgba(100, 3, 3, 0.89);
+  border-style: ridge;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  text-decoration: none;
+  background-color: rgb(202, 32, 32);
+}
+.research-cta-btn-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 .research-footer {
   width: 100%;
   display: flex;
@@ -340,7 +398,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.research-link09 {
+.research-link10 {
   font-size: 18px;
   font-family: "Verdana";
   margin-right: var(--dl-space-space-tripleunit);
@@ -373,6 +431,22 @@
     text-align: center;
   }
   .research-text13 {
+    text-align: center;
+  }
+  .research-hero1 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .research-hero-text-container1 {
+    width: 80%;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .research-heading6 {
+    text-align: center;
+  }
+  .research-text17 {
     text-align: center;
   }
 }
@@ -427,6 +501,9 @@
     width: 100%;
   }
   .research-hero-text-container {
+    width: 100%;
+  }
+  .research-hero-text-container1 {
     width: 100%;
   }
 }
