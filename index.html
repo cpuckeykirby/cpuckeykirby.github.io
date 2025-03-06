@@ -1,243 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Portfolio Page</title>
-    <meta property="og:title" content="Portfolio Page" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cameron Puckey-Kirby | Professional Portfolio</title>
+  <!-- Meta for SEO -->
+  <meta name="description" content="Cameron Puckey-Kirby: Mathematics Teacher and Economics Student. Explore research interests, dissertation, and current projects.">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS (via CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS Library CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-GY6SeUI/QSxGLP9gHpSwW4Lz+PoR7iK8TnpM8gTcNQvX16t8wv2N9ju1kqzyE+Y6Y9aFe4k6hYk37iZALeVd4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-profile">
+        <img src="public/myphoto.png" alt="Cameron Puckey-Kirby" class="sidebar-photo">
+      </div>
+      <div class="sidebar-brand">Cameron Puckey-Kirby</div>
+    </div>
+    <ul class="sidebar-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research-interests">Research</a></li>
+      <li><a href="#masters-dissertation">Dissertation</a></li>
+      <li><a href="#current-projects">Projects</a></li>
+    </ul>
+    <div class="sidebar-social">
+      <a href="https://www.linkedin.com/in/cameron-puckey-kirby-23bb101b2/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+      </a>
+    </div>
+  </nav>
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Arial;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.55;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./index.css" rel="stylesheet" />
-
-      <div class="home-container">
-        <div data-role="Header" class="home-navbar-container">
-          <div class="home-navbar">
-            <span class="home-heading">&nbsp; &nbsp; &nbsp;&nbsp;</span>
-            <div class="home-links-container">
-              <a href="contact.html" class="home-link">Contact</a>
-              <a
-                href="https://greatergame.substack.com/"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-link1"
-              >
-                Newsletter
-              </a>
-              <a href="research.html" class="home-link2">Research</a>
-            </div>
-            <div data-role="BurgerMenu" class="home-burger-menu">
-              <svg viewBox="0 0 1024 1024" class="home-icon">
-                <path
-                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-                ></path>
-              </svg>
-            </div>
-            <div data-role="MobileMenu" class="home-mobile-menu">
-              <div class="home-container1">
-                <span class="Card-Heading home-heading1">Logo</span>
-                <div data-role="CloseMobileMenu" class="home-close-menu">
-                  <svg viewBox="0 0 1024 1024" class="home-icon2">
-                    <path
-                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="home-links-container1">
-                <span class="home-link3 Navbar-Link">About</span>
-                <span class="home-link4 Navbar-Link">Experience</span>
-                <span class="home-link5 Navbar-Link">Portofolio</span>
-                <span class="Navbar-Link">Contact</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="home-section-separator"></div>
-        <div class="home-section-separator1"></div>
-        <div class="home-container2">
-          <div class="home-hero">
-            <div class="home-hero-text-container">
-              <h1 class="home-heading2">
-                <span>Cameron</span>
-                <br />
-                <span>Puckey-Kirby</span>
-                <br />
-              </h1>
-              <span class="home-text04">
-                MSc Economics @ The University of Sheffield.
-              </span>
-              <span class="home-text05">
-                <span>Hi,</span>
-                <br />
-                <span>
-                  I'm a Master's Student studying Economics in Sheffield,
-                  England. This is the repository of all current and future
-                  research projects carried out during my studies and in my
-                  spare time.
-                </span>
-                <br />
-              </span>
-              <div class="home-cta-btn-container"></div>
-            </div>
-            <img
-              alt="image"
-              src="public/cameron%20p.k-1500w.jpg"
-              class="home-image"
-            />
-          </div>
-        </div>
-        <div class="home-features">
-          <div class="home-heading-container">
-            <h2 class="home-text10">Research Interests</h2>
-            <span class="home-text11">
-              <span>
-                My research interests vary, but they mainly focus onto the three
-                areas outlined below. Often, due to the nature of current
-                government policy and net zero goals, I will study
-                sustainability alongside these areas.
-              </span>
-              <br />
-            </span>
-          </div>
-          <div class="home-cards-container">
-            <div class="home-card">
-              <div class="home-icon-container">
-                <img
-                  alt="image"
-                  src="public/stock%20market.svg"
-                  class="home-image1"
-                />
-              </div>
-              <div class="home-content-container">
-                <span class="home-heading3">
-                  <span>Finance</span>
-                  <br />
-                </span>
-                <span class="home-text16">
-                  <span>
-                    Mainly focusing on Financial Econometrics, developing models
-                    to analyse asset prices, volatility and returns. Particular
-                    interest in how regulations affect financial markets.
-                  </span>
-                  <br />
-                  <span>
-                    Developing my knowledge of FinTech, and how technology
-                    developments are used by institutions.
-                  </span>
-                </span>
-              </div>
-            </div>
-            <div class="home-card1">
-              <div class="home-icon-container1">
-                <img alt="image" src="public/world.svg" class="home-image2" />
-              </div>
-              <div class="home-content-container1">
-                <span class="home-heading4">Geoeconomics</span>
-                <span class="home-text20">
-                  The use of economic tools by governments and institutions to
-                  advance foreign policy and interests abroad. Focused on the
-                  race between major powers for critical resources and energy
-                  production. Minor focus on the drivers of global economic
-                  growth, security, and inequalities.
-                </span>
-              </div>
-            </div>
-            <div class="home-card2">
-              <div class="home-icon-container2">
-                <img
-                  alt="image"
-                  src="public/development.svg"
-                  class="home-image3"
-                />
-              </div>
-              <div class="home-content-container2">
-                <span class="home-heading5">Development</span>
-                <span class="home-text21">
-                  Studying the drivers and factors in the development of the
-                  Global South. My research interest in the this area is on
-                  policy that both effectively and efficiently increases long
-                  term growth. What are the factors that affect economic
-                  stability? How can the West effectively help poorer nations
-                  grow their economies?
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="home-section-separator2"></div>
-        <div class="home-section-separator3"></div>
-        <div class="home-subscribe"></div>
-        <div class="home-section-separator4"></div>
-        <div class="home-footer-container">
-          <div class="home-footer">
-            <div class="home-social-links"></div>
-            <div class="home-copyright-container">
-              <svg viewBox="0 0 1024 1024" class="home-icon4">
-                <path
-                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
-                ></path>
-              </svg>
-              <span class="Anchor">Copyright, 2021</span>
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section / About -->
+    <header id="about" class="intro" data-aos="fade-up">
+      <div class="container">
+        <div class="intro-content">
+          <div class="intro-text">
+            <h1>Cameron Puckey-Kirby</h1>
+            <h3>Mathematics Teacher | MSc Economics with Merit</h3>
+            <p class="lead">
+              I’m currently based in Ulaanbaatar, Mongolia, teaching mathematics to middle and high school students.
+              I'm looking for Research Assistant or other job opportunities within the field of economics, with the ultimate goal of completing a PhD in Economics.
+              Please read below to see if I'm a suitable candidate for any job opening you may have. If you wish to contact me about my work, use the buttons below.
+            </p>
+            <div class="intro-buttons text-center">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#hireMeModal">Hire Me</button>
+              <a href="public/cv_cameron_puckey_kirby.pdf" download class="btn btn-primary btn-lg ms-2">Download CV</a>
+              <button type="button" class="btn btn-secondary btn-lg custom-contact-btn" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</button>
             </div>
           </div>
         </div>
       </div>
+    </header>
+
+    <!-- Research Interests Section -->
+    <section id="research-interests" class="section" data-aos="fade-up">
+      <div class="container">
+        <h2 class="section-title">Research Interests</h2>
+        <p>Although I have a broad education in economics, I am particularly drawn to three key, interrelated areas: Development Economics, Macroeconomics, and Public Economics.</p>
+        <p>In Development Economics, I explore how structural policies, institutional reforms, and targeted interventions can spur growth and reduce inequality in emerging markets—a field that is especially appealing because of its direct impact on improving living standards and driving sustainable progress.</p>
+        <p>In Macroeconomics, I examine the broader dynamics of economic activity, including fiscal and monetary policy, consumption volatility, and financial market liberalization, with the goal of understanding how aggregate trends and shocks influence overall economic stability and growth. I combined these two interests in my Master's dissertation, focusing on how financial deregulation affects consumption volatility in developing countries.</p>
+        <p>Lastly, Public Economics captivates me through its focus on the design and evaluation of government policies—such as taxation and public expenditure—that aim to balance efficiency with social equity, thereby ensuring that economic progress benefits a broad spectrum of society. Together, these areas offer a robust framework for addressing critical economic challenges and shaping policies that foster both development and stability.</p>
+      </div>
+    </section>
+
+    <!-- Master's Dissertation Section -->
+    <section id="masters-dissertation" class="section bg-light" data-aos="fade-up">
+      <div class="container">
+        <h2 class="section-title">Master's Dissertation</h2>
+        <p>Explore my Master's dissertation examining the impact of financial regulation liberalization on consumption volatility in developing countries.</p>
+        <p>
+          The objective of this paper is to explore how the liberalisation of the financial sector affects private household consumption volatility in South Korea.
+          We focus on both the liberalisation of the domestic sector and the foreign sector. Using data from 1973-2014, the results show that liberalisation of the domestic sector is more strongly associated with lower consumption volatility than liberalisation of the foreign sector.
+          We compare these results to Ang (2011), who examines India, finding them contradictory. We conclude that the differences are a result of the different levels of financial development at the time of liberalisation.
+        </p>
+        <a href="public/masters-dissertation.pdf">
+          How Does Financial Liberalisation Affect Consumption Volatility? Evidence from Korea
+        </a>
+      </div>
+    </section>
+
+    <!-- Current Projects Section -->
+    <section id="current-projects" class="section" data-aos="fade-up">
+      <div class="container">
+        <h2 class="section-title">Current Projects</h2>
+        <p>These are the projects I am currently working on. Click on the title of each one to view the GitHub repository for the project.</p>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="https://github.com/cpuckeykirby/SABMM" target="_blank">SABMM</a>
+            <p>SABMM is a Stochastic Agent Based Macroeconomic Model developed with the ultimate aim of studying the effects of taxes, fiscal policy, and credit conditions on wealth and income distributions. It is a personal project aimed at deepening my understanding of ABMs and the potential influence of behavioral economics on macroeconomic dynamics.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="container">
+        <p>&copy; 2025 Cameron Puckey-Kirby. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Hire Me Modal -->
+  <div class="modal fade" id="hireMeModal" tabindex="-1" aria-labelledby="hireMeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form id="hireme-form">
+          <div class="modal-header">
+            <h5 class="modal-title" id="hireMeModalLabel">Hire Me</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="jobTitle" class="form-label">Job Title</label>
+              <input type="text" class="form-control" id="jobTitle" placeholder="Enter job title">
+            </div>
+            <div class="mb-3">
+              <label for="jobDescription" class="form-label">Job Description</label>
+              <textarea class="form-control" id="jobDescription" rows="3" placeholder="Describe the job"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="contractLength" class="form-label">Contract Length</label>
+              <input type="text" class="form-control" id="contractLength" placeholder="e.g., 6 months, 1 year">
+            </div>
+            <div class="mb-3">
+              <label for="salary" class="form-label">Salary</label>
+              <input type="text" class="form-control" id="salary" placeholder="Enter salary details">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Submit Hire Request</button>
+          </div>
+        </form>
+      </div>
     </div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-  </body>
+  </div>
+
+  <!-- Contact Me Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form id="contact-form">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="contactName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="contactName" placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label for="contactEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="contactEmail" placeholder="Your email">
+            </div>
+            <div class="mb-3">
+              <label for="contactMessage" class="form-label">Message</label>
+              <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-secondary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (via CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+          integrity="sha512-6V4XBOxbgMhaW0Ql1l9JEM47HHeNNnOU4eiXElQLxKfEbO0XQkqndFBmkX2xOF1G+DH1K1M3aJZOgmDlT9tjVg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 </html>
